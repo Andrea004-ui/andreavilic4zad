@@ -1,0 +1,150 @@
+@charset "utf-8";
+/*CSS Document*/
+
+p{
+	color:black;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia,, "serif";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18px;
+	width: 1400px;
+	background-color: cadetblue;
+	opacity: 0.9;
+	padding: 20px
+	text-align: center
+}
+body{
+	background-color: lightblue;
+	font-family: "Arima", sans-serif;
+} 
+.for-beginning li{
+	display: inline;
+}
+span{
+			font-weight:bold;
+			color:black;
+			font-style: italic;
+			font-family: Courier New;
+			text-shadow: 2px 2px grey;
+			}
+			img{
+			float: right;
+	}
+ol{
+	list-style-type: upper-roman;
+}
+form{
+	font-family:Comic sans MS;
+}
+input{
+	border:1px solid gray;
+}
+button:active {
+    background-color: cadetblue;
+}
+a:hover {
+    color: #D6A3B2;
+}
+input:focus {
+	outline: none;
+    border: 3px solid cadetblue;
+}
+button {
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+button:hover {
+    background-color: #D6A3B2;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+input[type=text]{
+	background: cadetblue;
+	
+}
+.tablica2{
+	width: 1100px;
+	height: 600px;
+	border: dotted black;
+	border-radius: 10px;
+	padding:20px;
+	margin: 10px;
+	border-collapse: separate;
+	
+  
+}
+
+.tablica1{
+	width: 300px;
+	border: none;
+	border-radius: 10px;
+	padding:20px;
+  
+}
+
+        
+.tablica2 tr, .tablica2 td {
+border: 2px solid rgb(49, 174, 210);
+padding: 10px;
+text-align: center;
+        }
+
+.tablica3{
+	width: 300px;
+	height: 50px;
+	border: dashed white;
+	border-radius: 20px;
+	padding:20px;
+	margin: 10px;
+	background-color: hsl(192, 54%, 53%);
+	
+	
+}
+ thead th {
+            background-color: rgb(99, 179, 207); 
+            color: white;              
+            font-size: 15px;           
+            padding: 15px;            
+            border: 2px solid rgb(49, 174, 210);    
+            text-transform: uppercase; 
+            text-align: left;  
+ }
+
+tbody {
+  background-color: hsl(200, 55%, 87%);
+}
+
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease; 
+}
+
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+tbody tr:hover {
+  background-color: hsl(192, 54%, 53%); 
+}
+
+
+tbody td {
+  padding: 8px 12px; 
+  text-align: left; 
+  color: #333;
+}
+
+ #plavopodrucje{
+	 background-color: hsl(192, 54%, 53%);
+ }
